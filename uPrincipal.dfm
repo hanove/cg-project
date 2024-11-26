@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 0
   Caption = 'Form1'
   ClientHeight = 518
-  ClientWidth = 855
+  ClientWidth = 876
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -41,8 +41,8 @@ object Form1: TForm1
     Caption = 'Pontos'
   end
   object Label3: TLabel
-    Left = 681
-    Top = 165
+    Left = 697
+    Top = 264
     Width = 28
     Height = 15
     Caption = 'Xmin'
@@ -55,22 +55,22 @@ object Form1: TForm1
     Caption = 'Label4'
   end
   object Label5: TLabel
-    Left = 681
-    Top = 215
+    Left = 697
+    Top = 314
     Width = 27
     Height = 15
     Caption = 'Ymin'
   end
   object Label6: TLabel
-    Left = 681
-    Top = 260
+    Left = 697
+    Top = 359
     Width = 30
     Height = 15
     Caption = 'Xmax'
   end
   object Label7: TLabel
-    Left = 681
-    Top = 305
+    Left = 697
+    Top = 404
     Width = 29
     Height = 15
     Caption = 'Ymax'
@@ -143,40 +143,40 @@ object Form1: TForm1
     TabOrder = 4
   end
   object edXmin: TEdit
-    Left = 681
-    Top = 186
+    Left = 697
+    Top = 285
     Width = 121
     Height = 23
     TabOrder = 5
     Text = '-250'
   end
   object edYmin: TEdit
-    Left = 681
-    Top = 231
+    Left = 697
+    Top = 330
     Width = 121
     Height = 23
     TabOrder = 6
     Text = '-250'
   end
   object edXmax: TEdit
-    Left = 681
-    Top = 276
+    Left = 697
+    Top = 375
     Width = 121
     Height = 23
     TabOrder = 7
     Text = '250'
   end
   object edYmax: TEdit
-    Left = 681
-    Top = 326
+    Left = 697
+    Top = 425
     Width = 121
     Height = 23
     TabOrder = 8
     Text = '250'
   end
   object Button1: TButton
-    Left = 713
-    Top = 355
+    Left = 729
+    Top = 454
     Width = 89
     Height = 25
     Caption = 'Atualiza mundo'
@@ -199,6 +199,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'LEFT'
     TabOrder = 11
+    OnClick = btMoveLeftClick
   end
   object btMoveRight: TButton
     Left = 589
@@ -207,6 +208,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'RIGHT'
     TabOrder = 12
+    OnClick = btMoveRightClick
   end
   object btMoveDown: TButton
     Left = 542
@@ -215,6 +217,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'DOWN'
     TabOrder = 13
+    OnClick = btMoveDownClick
   end
   object btZoomIn: TButton
     Left = 508
@@ -223,6 +226,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'Zoom in'
     TabOrder = 14
+    OnClick = btZoomInClick
   end
   object btZoomOut: TButton
     Left = 589
@@ -231,5 +235,90 @@ object Form1: TForm1
     Height = 25
     Caption = 'Zoom out'
     TabOrder = 15
+    OnClick = btZoomOutClick
+  end
+  object edNewX: TEdit
+    Left = 655
+    Top = 156
+    Width = 121
+    Height = 23
+    TabOrder = 16
+  end
+  object edNewY: TEdit
+    Left = 655
+    Top = 185
+    Width = 121
+    Height = 23
+    TabOrder = 17
+  end
+  object btBolinha: TButton
+    Left = 655
+    Top = 214
+    Width = 75
+    Height = 25
+    Caption = 'C'#237'rculo'
+    TabOrder = 18
+    OnClick = btBolinhaClick
+  end
+  object edRaio: TEdit
+    Left = 736
+    Top = 214
+    Width = 57
+    Height = 23
+    TabOrder = 19
+  end
+  object btTranslada: TButton
+    Left = 782
+    Top = 156
+    Width = 65
+    Height = 25
+    Caption = 'Translada'
+    TabOrder = 20
+    OnClick = btTransladaClick
+  end
+  object btEscalona: TButton
+    Left = 782
+    Top = 187
+    Width = 65
+    Height = 25
+    Caption = 'Escalona'
+    TabOrder = 21
+    OnClick = btEscalonaClick
+  end
+  object btRotaciona: TButton
+    Left = 799
+    Top = 218
+    Width = 58
+    Height = 25
+    Caption = 'Rotaciona'
+    TabOrder = 22
+    OnClick = btRotacionaClick
+  end
+  object btReleteX: TButton
+    Left = 508
+    Top = 374
+    Width = 75
+    Height = 25
+    Caption = 'Relete X'
+    TabOrder = 23
+    OnClick = btReleteXClick
+  end
+  object btRefleteY: TButton
+    Left = 589
+    Top = 374
+    Width = 75
+    Height = 25
+    Caption = 'Reflete Y'
+    TabOrder = 24
+    OnClick = btRefleteYClick
+  end
+  object btRotacionaHomo: TButton
+    Left = 508
+    Top = 405
+    Width = 101
+    Height = 25
+    Caption = 'Rotacao Homo'
+    TabOrder = 25
+    OnClick = btRotacionaHomoClick
   end
 end

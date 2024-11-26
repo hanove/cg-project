@@ -38,6 +38,16 @@ __published:	// IDE-managed Components
 	TButton *btMoveDown;
 	TButton *btZoomIn;
 	TButton *btZoomOut;
+	TEdit *edNewX;
+	TEdit *edNewY;
+	TButton *btBolinha;
+	TEdit *edRaio;
+	TButton *btTranslada;
+	TButton *btEscalona;
+	TButton *btRotaciona;
+	TButton *btReleteX;
+	TButton *btRefleteY;
+	TButton *btRotacionaHomo;
 	void __fastcall Image1MouseMove(TObject *Sender, TShiftState Shift, int X, int Y);
 	void __fastcall Image1MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
           int X, int Y);
@@ -46,6 +56,18 @@ __published:	// IDE-managed Components
 	void __fastcall lbPontosClick(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall btMoveUpClick(TObject *Sender);
+	void __fastcall btMoveRightClick(TObject *Sender);
+	void __fastcall btMoveDownClick(TObject *Sender);
+	void __fastcall btMoveLeftClick(TObject *Sender);
+	void __fastcall btZoomInClick(TObject *Sender);
+	void __fastcall btZoomOutClick(TObject *Sender);
+	void __fastcall btBolinhaClick(TObject *Sender);
+	void __fastcall btTransladaClick(TObject *Sender);
+	void __fastcall btEscalonaClick(TObject *Sender);
+	void __fastcall btRotacionaClick(TObject *Sender);
+	void __fastcall btReleteXClick(TObject *Sender);
+	void __fastcall btRefleteYClick(TObject *Sender);
+	void __fastcall btRotacionaHomoClick(TObject *Sender);
 
 private:	// User declarations
 public:		// User declarations

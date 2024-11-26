@@ -25,4 +25,24 @@
     <Transaction>2024/10/09 10:51:53.000.170,C:\Users\heito\Documents\CG\Unit1.h=C:\Users\heito\Documents\CG\uDisplayFile.h</Transaction>
     <Transaction>2024/10/09 10:51:53.000.170,C:\Users\heito\Documents\CG\Unit1.cpp=C:\Users\heito\Documents\CG\uDisplayFile.cpp</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="cg.cpp"/>
+    <File Path="cgPCH1.h"/>
+    <File Path="uDisplayFile.cpp"/>
+    <File Path="uDisplayFile.cpp"/>
+    <File Path="uDisplayFile.h"/>
+    <File Path="uJanela.cpp"/>
+    <File Path="uJanela.cpp"/>
+    <File Path="uJanela.h"/>
+    <File Path="uPoligono.cpp"/>
+    <File Path="uPoligono.cpp"/>
+    <File Path="uPoligono.h"/>
+    <File Path="uPonto.cpp"/>
+    <File Path="uPonto.cpp"/>
+    <File Path="uPonto.h"/>
+    <File Path="uPrincipal.cpp"/>
+    <File Path="uPrincipal.cpp"/>
+    <File Path="uPrincipal.dfm"/>
+    <File Path="uPrincipal.h"/>
+  </ProjectSortOrder>
 </BorlandProject>
